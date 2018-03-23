@@ -14,6 +14,9 @@ with(subpow, {
        ylab="Global Active Power (kilowatts)", xlab="")
 })
 
+
+title(main="Global Active Power Vs Time")
+
 #export to PNG
 dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()
